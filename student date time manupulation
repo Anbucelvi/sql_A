@@ -1,0 +1,2 @@
+select name,joiningdate from student where extract (year from  joiningdate) =2022
+select name,enddate from student where extract (month from enddate) =2023
