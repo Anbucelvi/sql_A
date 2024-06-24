@@ -1,0 +1,11 @@
+create table customers (name text,phoneno bigint,email text,city text) 
+select * from customers
+insert into customers values ('Jeeva',9857643126,'jev1232gmail.com','cuddalore'),
+('Ami',910273645,'ami65@gmail.com','pondy')
+select*from customers
+insert into customers (name,phoneno,city) values ('Rajesh',9786534210,'trichy')
+select*from customers
+update customers set city='cuddalore' where name ='Rajesh'
+select * from customers
+delete from customers  where name ='Jeeva'
+select * from customers
