@@ -1,0 +1,8 @@
+select cylinders,
+ case 
+      when cylinders  = 8 then 1
+      when cylinders = 2 then 2 
+      when cylinders = 5 then 3
+	  end as cylmap
+	  from cars
+ select replace (origin,'Japan','jaapan') as orgn from cars
