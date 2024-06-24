@@ -1,0 +1,7 @@
+select upper (car) from cars
+select lower (car) from cars
+select ltrim (car) from cars
+select rtrim (car) from cars
+select trim (car) from cars
+select car, length (car) from cars
+select car , substring (car,5,4) from cars
