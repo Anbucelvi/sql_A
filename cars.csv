@@ -1,0 +1,5 @@
+select car  from cars
+select car,origin from cars
+select * from cars
+select distinct origin from cars
+select origin from cars limit 4
