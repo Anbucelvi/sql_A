@@ -1,0 +1,4 @@
+select car, abs(mpg) from cars
+select car,mpg,cylinders * pi() from cars
+select car , sqrt(mpg) from cars
+select car, mpg ,sin(radians(mpg)) from cars
