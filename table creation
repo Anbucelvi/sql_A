@@ -1,0 +1,10 @@
+create table employee (name text,phoneno integer,emailid text, address text)
+select * from employee
+alter table employee add column city text 
+select * from employee
+alter table employee alter column city type varchar
+select * from employee
+alter table employee drop column city
+select * from employee
+drop table employee
+select * from employee
