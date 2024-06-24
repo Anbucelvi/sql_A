@@ -1,0 +1,6 @@
+select car, weight, cylinders from cars where cylinders =( select distinct (cylinders) from cars where weight<2006) order by weight
+select weight,origin from cars where origin in (select distinct (origin)from cars)
+select car,origin from cars where car in (select distinct (car) from cars
+		where origin =(select min(origin) from cars ))
+with carcar as (select car,cylinders from cars where cylinders=8) 
+select * from carcar
