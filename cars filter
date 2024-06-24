@@ -1,0 +1,6 @@
+select car,cylinders from cars where cylinders = 8
+select cylinders from cars where cylinders < 8
+select cylinders, mpg from cars where mpg > 5
+select mpg from cars where mpg <>17
+select cars, cylinders, mpg from cars where cylinders between 4 and 8
+select cars,acceleration from cars where acceleration is null 
