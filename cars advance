@@ -1,0 +1,4 @@
+select * from cars
+select car,mpg,cylinders from cars where ( mpg=18 or mpg =17 )and cylinders = 8
+select car,mpg from cars where mpg in (15,16,17)
+select car,mpg,cylinders from cars where not cylinders = 8
