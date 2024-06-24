@@ -1,0 +1,2 @@
+select max(weight ) as maxweight from cars
+select car , weight *1000 as "weight (grams)" from cars
