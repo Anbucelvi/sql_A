@@ -1,0 +1,5 @@
+select car,mpg from cars where car ilike 'ford'
+select car,mpg,cylinders from cars where car ilike 'ford%'
+select car,mpg from cars where car ilike '%pinto'
+select car,cylinders from cars where car ilike '%pinto%'
+select car,origin from cars where car ilike '______runabout%'
