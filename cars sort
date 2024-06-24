@@ -1,0 +1,4 @@
+select car from cars order by Cylinders
+select car,mpg, cylinders from cars order by MPG,Cylinders
+select cars, mpg,acceleration from cars order by 1,2
+select cars,cylinders,mpg from cars order by cars desc , mpg asc
