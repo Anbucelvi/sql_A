@@ -1,0 +1,1 @@
+select car, "mpg"/"cylinders" as "mpg/cylinders" from cars
