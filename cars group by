@@ -1,0 +1,4 @@
+select mpg ,count(*) from cars group by mpg
+select car , count (*) from cars group by car having count (*) >2
+select cylinders ,count (*) from cars where cylinders=8 group by cylinders having count (*)>2
+select mpg,count (*) from cars where origin ='Japan'group by mpg having count(*) >2 order by "count"
