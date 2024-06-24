@@ -1,0 +1,7 @@
+select avg (cylinders) as avgcylinders from cars
+select count (mpg) as mpg  from cars
+select max (mpg) as maxmpg from cars
+select min(cylinders ) as mincyl from cars
+select sum (cylinders) from cars
+select car, mpg from cars where mpg = (select max (mpg) from cars)
+select count (distinct (mpg)) from cars
