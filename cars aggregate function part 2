@@ -1,0 +1,5 @@
+select count (*) as items,
+ max(weight) as maxw,
+ min (weight) as minw,
+ avg(weight) as avgw
+  from cars
