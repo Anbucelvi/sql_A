@@ -1,0 +1,17 @@
+select * from employeeinfo
+-- write a query to get the EmpFname from the
+--employeeinfo table in the uppercaseusing the alias name as EmpName
+select upper (empfname ) as EmpName from employeeinfo 
+
+--write a query to get the number of employees working in the department HR
+select count (department ),department from employeeinfo where department='HR' group by department
+
+--write a query to create a new table who's date and structure  are copied from another table
+  with employeeinfo2  as (select * from employeeinfo) 
+select * from employeeinfo2
+
+--write the query to create current date
+select current_date
+
+--write a query to display the name of employees that begins with s
+ select  empfname from employeeinfo where  empfname ilike 'S%'
